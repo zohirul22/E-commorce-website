@@ -14,6 +14,10 @@
 
 }
 
+.line-padding {
+    padding: 100px 80px;
+}
+
 :root {
     --bg-color: #fdfdfd;
     --text-color: #333;
@@ -52,7 +56,7 @@
     justify-content: space-between;
     background-color: transparent;
     z-index: 1;
-    background-color: #fdfdfd;
+    background-color: #fdfdfd56;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
@@ -71,6 +75,11 @@
     font-weight: 500;
     margin-right: 3.2rem;
     transition: .2s ease
+}
+
+.cart-icon {
+    font-size: 25px;
+    color: black;
 }
 
 .navber-list li a:hover,
@@ -143,3 +152,65 @@
 }
 
 /***** btn css ****/
+
+/***** feature css ****/
+
+.feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.feature .feature-box {
+    width: 180px;
+    background-color: #fdfdfd;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 1px solid gainsboro;
+    padding: 30px 10px;
+    text-align: center;
+    transition: .5s;
+
+}
+
+.feature .feature-box:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+}
+
+.feature-box img {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.feature-box h4 {
+    display: inline-block;
+    background-color: rgb(202, 151, 198);
+    color: gainsboro;
+    padding: 5px 10px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+.feature .feature-box:nth-child(2) h4 {
+    background-color: rgb(241, 148, 198);
+}
+
+.feature .feature-box:nth-child(3) h4 {
+    background-color: rgb(127, 182, 255);
+}
+
+.feature .feature-box:nth-child(4) h4 {
+    background-color: rgba(222, 184, 135, 0.973);
+}
+
+.feature .feature-box:nth-child(5) h4 {
+    background-color: rgb(131, 163, 67);
+}
+
+.feature .feature-box:nth-child(6) h4 {
+    background-color: rgb(167, 91, 238);
+}
+
+/***** feature css ****/
