@@ -18,6 +18,10 @@
     padding: 100px 80px;
 }
 
+.line-padding2 {
+    padding: 0 50px;
+}
+
 :root {
     --bg-color: #fdfdfd;
     --text-color: #333;
@@ -214,3 +218,96 @@
 }
 
 /***** feature css ****/
+
+.features-products {
+    text-align: center;
+
+
+}
+
+.features-products .features-title {
+    margin-bottom: 50px;
+
+
+}
+
+.features-products .features-title h1 {
+    font-size: 50px;
+    color: rgb(10, 241, 164);
+}
+
+.features-products .features-title p {
+    font-size: 20px;
+    color: gray;
+}
+
+.products-pro {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.products-pro .pro {
+    width: 23%;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.products-pro .pro:hover {
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.pro .img {
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.pro-desc {
+    text-align: start;
+    padding: 0 10px;
+}
+
+.pro-desc h3 {
+    color: grey;
+}
+
+.pro-desc h4 {
+    font-weight: 400;
+}
+
+.pro-desc .icon {
+    color: orange;
+    font-size: 20px;
+}
+
+.des-buttom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    color: green;
+}
+
+.des-buttom a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    background: transparent;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    box-shadow: 0 .2rem .5rem var(--shadow-color);
+    font-size: 1rem;
+    color: var(--main-color);
+
+    transition: .5s ease;
+}
+
+.des-buttom a:hover {
+    background: rgb(238, 186, 186);
+    color: rgb(0, 183, 255);
+}
