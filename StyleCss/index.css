@@ -311,3 +311,23 @@
     background: rgb(238, 186, 186);
     color: rgb(0, 183, 255);
 }
+
+
+.bannar{
+    text-align: center;
+    padding: 80px 0;
+    margin: 80px 0;
+  background-image: url("/img/banner/b2.jpg");
+}
+
+.bannar .bannar-details p{
+    color: white;
+}
+.bannar .bannar-details h2{
+color: var(--white-color);
+padding: 5px 0;
+}
+
+.bannar .bannar-details span{
+    color: red;
+}
