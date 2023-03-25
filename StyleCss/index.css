@@ -171,7 +171,24 @@
     transition: .5s;
 }
 
-.btn-2:hover {}
+.btn-3 {
+    display: inline-block;
+    margin-top: 10px;
+    padding: .4rem 1rem;
+    background: transparent;
+    border: 1px solid rgb(204, 208, 218);
+    border-radius: .3rem;
+    box-shadow: 0 .2rem .5rem var(--shadow-color);
+    font-size: 1rem;
+    color: var(--white-color);
+    letter-spacing: .1rem;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.btn-3:hover {
+    background-color: #754ef9;
+}
 
 /***** btn css ****/
 
@@ -423,7 +440,7 @@
 
 .bannar-2 .bannar-short-box h3 {
     color: rgba(255, 0, 0, 0.705);
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .bannar-2 .short-box-2 {
@@ -434,4 +451,85 @@
 .bannar-2 .short-box-3 {
     background-image: url("/img/banner/b18.jpg");
 
+}
+
+.newsnappar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px 40px;
+    background-image: url("/img/banner/b14.png");
+    background-size: cover;
+    background-position: center;
+    background-color: darkcyan;
+}
+
+.newsnappar .newstext h2 {
+    color: var(--white-color);
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.newsnappar .newstext p {
+    color: gainsboro;
+}
+
+.newsnappar .form input {
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+
+}
+.footer p{
+  color: grey;
+
+}
+
+.footer .col-1{
+    
+}
+.footer .col-1 h2{
+margin: 10px 0;
+}
+.contract-info{
+    color: rgb(58, 53, 53);
+}
+.contract-info span{
+    font-weight: 700;
+}
+.social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    background: transparent;
+    border-radius: 50%;
+    box-shadow: 0 .2rem .5rem var(--shadow-color);
+    font-size: 2rem;
+    color: var(--main-color);
+    margin-left: 5px;
+    transition: .5s ease;
+}
+
+.social-media a:hover {
+    background: var(--main-color);
+    color: var(--white-color);
+}
+
+.img-box{
+  
+}
+.col-4 p{
+    margin-top: 10px 0;
 }
