@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-commorce-site</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- boxicon -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- boxicon -->
@@ -14,19 +15,23 @@
 
 <body>
     <!-- Navber section -->
-    <navber class="header">
-        <a href=""><img src="img/logo.png" class="logo" alt=""></a>
+    <header>
+        <nav>
+            
+            <i id="btnM"  class="fa fa-bars" aria-hidden="true"></i>
+            <a href=""><img src="img/logo.png" class="logo" alt=""></a>
 
-        <ul class="navber-list">
-            <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="shop.html">Shop</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contract.html">Contract </a></li>
-            <a class="cart-icon" href="cart.html"><i class='bx bxs-shopping-bag'></i> </a>
-        </ul>
+            <ul class="nav-links">
+                <a class="active" href="index.html">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="about.html">About</a>
+                <a href="blog.html">Blog</a>
+                <a href="contract.html">Contract </a>
+                <a class="cart-icon" href="cart.html"><i class='bx bxs-shopping-bag'></i> </a>
+            </ul>
+        </nav>
+    </header>
 
-    </navber>
     <!-- Navber section -->
 
     <!-- bannar section -->
@@ -79,7 +84,7 @@
             <p>summer collection New Morden design</p>
         </div>
 
-        <div class="products-pro line-padding2">
+        <div class="products-pro line-padding">
             <!-- single product -->
             <div class="pro">
                 <img class="img" src="img/products/f1.jpg" alt="">
@@ -256,13 +261,13 @@
     <!-- bannar section -->
 
     <!-- features products -->
-    <section class="features-products ">
+    <section class="features-products">
         <div class="features-title">
             <h1>New Arrivals</h1>
             <p>summer collection New Morden design</p>
         </div>
 
-        <div class="products-pro line-padding2">
+        <div class="products-pro line-padding">
             <!-- single product -->
             <div class="pro">
                 <img class="img" src="img/products/n1.jpg" alt="">
@@ -429,7 +434,7 @@
     </section>
     <!-- features products -->
     <!-- bannar section -->
-    <section class="bannar-box">
+    <section class="bannar-box line-padding">
         <div class="bannar-single-box">
             <h4>crazy deals</h4>
             <h2>Buy I get I free </h2>
@@ -445,7 +450,7 @@
 
     </section>
 
-    <section class="bannar-2">
+    <section class="bannar-2 line-padding">
         <div class="bannar-short-box ">
             <h2>SEASONAL Sale</h2>
             <H3>Winter Collection -50% off</H3>
@@ -476,7 +481,7 @@
     </section>
 
     <section>
-        <footer class="footer">
+        <footer class="footer line-padding">
             <div class="col-1">
                 <a href=""><img src="img/logo.png" class="logo" alt=""></a>
                 <h2>Contract</h2>
@@ -492,6 +497,7 @@
                     <a href="#"><i class='bx bxl-instagram'></i></a>
                     <a href="#"><i class='bx bxl-github'></i></a>
                     <a href="#"><i class='bx bxl-youtube'></i></a>
+
                 </div>
             </div>
             <div class="col-2">
@@ -517,7 +523,7 @@
                     <img src="img/pay/app.jpg" alt="">
                     <img src="img/pay/play.jpg" alt="">
                 </div>
-               
+
                 <img src="img/pay/pay.png" alt="">
             </div>
         </footer>
